@@ -1,7 +1,7 @@
 #Funcion for Getting and Cleaning Data Course Project 
 #Perform the following actions
 #1 Load the data
-#2 Link training data to test data
+#2 Bind training data to test data
 #3 Join the data set, and filter the results of means and deviations
 #4 Groups the results by subject and activity and calculates the mean. The results will be ordered pro subject and activity.
 #5 Write results in a table
