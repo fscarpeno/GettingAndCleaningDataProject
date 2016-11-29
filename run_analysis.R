@@ -110,6 +110,6 @@ runAnalysis <- function(rootPath, outputPath, codeBookPath, sepTable){
 			""
 		 )
 	codeBook <- data.frame(fields, classes, mins, maxs , means, sds, levels )
-	write.table(codeBook , sep=sepTable, file=codeBookPath, row.names=FALSE)
+	write.table(codeBook , sep="|", file=codeBookPath, row.names=FALSE)
 
 }
